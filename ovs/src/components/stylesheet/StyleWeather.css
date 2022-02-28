@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  letter-spacing: 0.5px;
+}
+.body{
+    display: flex;
+    justify-content: left;
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  letter-spacing: 0.5px;
+}
+.maindiv{
+    height: 40rem;
+    width: 20rem;
+    background-color: rgba(43, 217, 226, 0.129);
+    padding: 2rem 1rem;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-color: #ffffff;
+    border-style: groove;
+    position: relative;
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  letter-spacing: 0.5px;
+    overflow: hidden;
+}
+.firstdiv{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  letter-spacing: 0.5px;
+}
+.firstdiv input{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 2rem;
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.9);
+    color: rgb(0, 0, 0);
+}
+.seconddiv{
+    height: 20rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  letter-spacing: 0.5px;
+}
+.seconddiv svg{
+    color: rgb(229, 255, 0);
+}
+h2W{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  letter-spacing: 0.5px;
+    color: rgb(255, 255, 255);
+    margin: 1rem auto;
+    z-index: 1000;
+}
+h3W{
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 30px;
+    color: #fff;
+    margin: 1rem auto;
+    z-index: 1000;
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  letter-spacing: 0.5px;
+}
+pW{
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 18px;
+    color:#ffffff;
+    margin: 0.5rem auto;
+    z-index: 1000;
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  letter-spacing: 0.5px;
+}
+.first{
+    background-image: url("https://zupimages.net/up/22/05/5s4d.png");
+    height: 4.9rem;
+    width: 7rem;
+    border-radius: 10%;
+    position: absolute;
+    top: 22%;
+    left: 65%;
+    opacity: .8;
+    animation: animate 10s linear infinite;
+}
+.second{
+    background-image: url("https://zupimages.net/up/22/05/s2jy.png");
+    height: 6rem;
+    width: 18.8rem;
+    border-radius: 10%;
+    position: absolute;
+    top: 30%;
+    left: -60%;
+    opacity: .8;
+    animation: animate 7s linear infinite;
+}
+.third{
+    background-image: url("https://zupimages.net/up/22/05/ylyj.png");
+    height: 10rem;
+    width: 19rem;
+    border-radius: 10%;
+    position: absolute;
+    top: 64%;
+    left: 65%;
+    opacity: .8;
+    animation: animate 16s linear infinite;
+}
+.error{
+    font-weight: 600;
+    font-family: -webkit-pictograph;
+    font-size: 18px;
+    color: #fff;
+    margin: 1rem auto;
+    z-index: 2000;
+    margin-top: 10rem;
+    margin-left: 5.5rem;
+    color: red;
+    font-size: 2rem;
+}
+
+@keyframes animate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
