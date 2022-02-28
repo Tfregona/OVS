@@ -25,7 +25,7 @@ All the 'read' part of the application is accessible for non-connected users
 Display all sports in the data base
 
 <p align="center">
-  <img src=".github/ovs_sorts.jpg" width="90%;" />
+  <img src=".github/ovs_sports.jpg" width="90%;" />
 </p>
 
 ### Sign up and sign in
@@ -77,7 +77,7 @@ Administrators can create, read, update, delete any data : sports, posts, users
   <img src=".github/ovs_admin_pannel2.jpg" width="90%;" />
 </p>
 
-### chat
+### Chat
 
 <p align="center">
   <img src=".github/ovs_chat.png" width="90%;" />
